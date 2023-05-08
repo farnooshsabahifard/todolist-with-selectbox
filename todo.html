@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>To Do List</title>
+        <link rel="stylesheet" href="./style.css">
+        
+    </head>
+    <body>
+        <h1 class="title">Todo List</h1>
+            <div class="container">
+                <div class="middle-section">
+                <div class="input-box">
+                <input type="text"  id="input-tag" placeholder="type your plan">
+                <button id="to-do-button" onclick="toDo()">
+                    <img class="button-pic" src="./assets/icons8-plus.svg" alt="button">
+                </button>
+                </div>
+                
+                <div class="select-box">
+                    <select  class="select-tag">
+                    <option class="all" value="all">all</option>
+                    <option class="complete" value="complete">complete</option>
+                    <option class="uncomplete" value="uncomplete">uncomplete</option>
+                    </select>
+                </div>
+                </div>
+            </div>
+                <ul id="ul-tag"></ul>
+            
+        
+        <script src="./index.js"></script>
+    </body>
+</html>
